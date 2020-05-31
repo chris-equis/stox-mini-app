@@ -1,18 +1,33 @@
 {
-  "name": "charty",
+  "name": "stox",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.54",
+    "@material-ui/pickers": "^3.2.10",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.152",
     "@types/node": "^12.0.0",
+    "@types/numeral": "^0.0.28",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/recharts": "^1.8.10",
+    "date-fns": "^2.14.0",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.15",
+    "numeral": "^2.0.6",
+    "query-string": "^6.12.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "recharts": "^1.8.5",
+    "rxjs": "^6.5.5",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -35,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5"
   }
 }
