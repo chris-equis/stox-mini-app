@@ -117,3 +117,19 @@ All API requests are done using the native [Fetch API](https://developer.mozilla
 - when the app loads for the first time, the chart card might not be present and it appears a bit late, due to the late loading of the chart data after loading the company profile; it can be improved with a better data loading handling
 - the maximum limit of the watch-list can be easily hacked, by manually updating the local-storage
 - search results list could load a virtualized version of a list so to have all the 10.000+ symbols handled at once
+
+### Installation and running the app ⚙️
+
+1. In order to install the app, after cloning/forking/downloading the repository, run the following command from the root folder:
+
+```sh
+yarn install
+```
+
+2. Create a copy of the `.env.sample` fine, and rename it `.env.local` and update the `REACT_APP_FINNHUB_TOKEN` variable (in the copy) to have the value of a [Finnhub API key](https://finnhub.io/dashboard).
+
+3. For building the app to be deployed, run
+
+```sh
+yarn build
+```
