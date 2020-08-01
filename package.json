@@ -20,7 +20,7 @@
     "@types/recharts": "^1.8.10",
     "date-fns": "^2.14.0",
     "immutable": "^4.0.0-rc.12",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "numeral": "^2.0.6",
     "query-string": "^6.12.1",
     "react": "^16.13.1",
